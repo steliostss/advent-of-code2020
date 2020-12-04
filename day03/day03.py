@@ -1,4 +1,4 @@
-# implementation for the day02 quiz of "advent of code" 
+# implementation for the day03 quiz of "advent of code" 
 
 def read_input(infile):
     input = []
