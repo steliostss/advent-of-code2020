@@ -4,18 +4,16 @@
 #include <math.h>
 #include <stdlib.h>
 
-void part1();
-void part2();
-void check();
+void run();
 
 int main (int argc, char** argv)
 {
     // check();
-    part1();
+    run();
     return 0;
 }
 
-void part1()
+void run()
 {
     int* seats = (int *)malloc(1024*sizeof(int));
     int mul = 1;
@@ -58,15 +56,4 @@ void part1()
     }
     printf("Part 2: %d\n", myseat);
     free(seats);
-}
-
-void check()
-{
-    int i = 1;
-    for (int k=0; k<10; ++k)
-    {
-        i = i << 1;
-        // i+=1;
-        printf("%d\n", i);
-    }
 }
