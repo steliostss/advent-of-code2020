@@ -1,4 +1,4 @@
-# implementation for the day04 quiz of "advent of code" 
+# implementation for the day04 quiz of "advent of code"
 
 import re
 import sys
@@ -47,7 +47,7 @@ def mkdict(entries):
         entry_dict = make_empty_dict()
         for i in entry:
             temp_list = i.split(':')
-            entry_dict[temp_list[0]] = temp_list[1]        
+            entry_dict[temp_list[0]] = temp_list[1]
         final.append(entry_dict)
     return final
 
