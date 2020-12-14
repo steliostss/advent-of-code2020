@@ -1,5 +1,5 @@
-# implementation for the day01 quiz of "advent of code" 
- 
+# implementation for the day01 quiz of "advent of code"
+\
 from itertools import combinations
 
 def part1(input):
@@ -34,4 +34,4 @@ with open("input.txt") as f:
     print("part1:", result1)
     result2 = part2(sorted)
     print("part2:", result2)
-   
+
