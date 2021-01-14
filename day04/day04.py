@@ -114,5 +114,5 @@ print("Part 1:", counter)
 counter = part2(fixed)
 print("Part 2:", counter)
 
-# one line solution
+# one line solution taken from reddit
 print(len(re.findall(''.join(r'(\n\n|^)(?=(\S+\s)*byr: (19[2-9]\d|200[0-2])\b )(?=(\S+\s)*iyr: (201\d|2020)\b )(?=(\S+\s)*eyr: (202\d|2030)\b )(?=(\S+\s)*hgt: ((1[5-8]\d|19[0-3])cm|(59|6\d|7[0-6])in)\b )(?=(\S+\s)*hcl: #[0-9a-f]{6}\b )(?=(\S+\s)*ecl: (amb|blu|brn|gry|grn|hzl|oth)\b )(?=(\S+\s)*pid: \d{9}\b )'.split()[::1+(sys.argv[1]<'2')]), sys.stdin.read())))

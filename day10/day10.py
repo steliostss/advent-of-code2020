@@ -18,10 +18,10 @@ def part1(input):
     return diff1, diff3
 
 def part2(input, id, max_id, pretext):
-    # print(pretext, end='')
-    # for i in input:
-    #     print(i, end=' ')
-    # print()
+    print(pretext, end='')
+    for i in input:
+        print(i, end=' ')
+    print()
     if (len(input) == 2):
         return 1 # escape sequence
     else:
